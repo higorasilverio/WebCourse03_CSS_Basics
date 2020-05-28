@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Text Formatation</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			
+			p {
+				font-size: 30 px;
+				font-family: "Georgia" 
+			}
+
+			div {
+				font-size: 30px;
+			}
+			.texto {
+				/*font-size: 150%;*/
+				font-size: 1em;
+			}
+
+			.bold {
+				font-weight: bold; /*100 to 900*/
+			}
+
+			.style {
+				/*font-style: italic;*/
+				font-style: oblique;: 
+			}
+
+			.standard {
+				font: bold 40px "Comic Sans MS", cursive, sans-serif;
+			}
+
+			.formatation {
+				/*text-decoration: underline;*/
+				/*text-decoration: overline;*/
+				text-decoration: line-through;
+			}
+			
+		</style>
+	</head>
+	<body>
+
+		<div>
+			<p class="texto">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam libero, scelerisque ac augue sed, imperdiet mollis est. 
+			</p>
+			<p class="bold">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam libero, scelerisque ac augue sed, imperdiet mollis est. 
+			</p>
+			<p class="style">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quam libero, scelerisque ac augue sed, imperdiet mollis est. 
+			</p>
+			<p class="standard">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="formatation">Ut quam libero, scelerisque ac augue sed, imperdiet mollis est. </span>
+			</p>
+		</div>
+		
+	</body>
+</html>
